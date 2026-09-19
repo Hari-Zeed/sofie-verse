@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>If Sofie Were A…</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Cormorant:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ INTRO ============ -->
+<section id="intro" class="intro">
+  <div class="intro-atmosphere"></div>
+  <div class="intro-content">
+    <p class="intro-kicker">a small thing for</p>
+    <h1 class="intro-title">If Sofie Were A<span class="ellipsis">…</span></h1>
+    <p class="intro-subtitle">10 little ways of describing someone unforgettable.</p>
+    <button id="enterBtn" class="enter-btn" aria-label="Begin the story">
+      <span class="enter-label">Let's see</span>
+      <span class="enter-line"></span>
+    </button>
+  </div>
+</section>
+
+<!-- ============ MAIN EXPERIENCE ============ -->
+<main id="experience" class="experience" aria-hidden="true">
+
+  <!-- top chrome -->
+  <header class="chrome-top">
+    <button id="chapterIndicator" class="chapter-indicator" aria-label="Open chapter list">
+      <span id="chapNum">01</span><span class="chap-sep">/</span><span class="chap-total">10</span>
+    </button>
+    <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+    <button id="skipBtn" class="skip-btn"><span class="skip-label">Skip</span> <span class="skip-arrow">→</span></button>
+  </header>
+
+  <!-- chapters -->
+  <div id="stage" class="stage">
+
+    <!-- CH 1 — COLOR -->
+    <article class="chapter" data-chapter="1" data-transition-in="slide-h">
+      <div class="photo-layer">
+        <img src="images/Unknown-1.jpeg" alt="A field of violet wildflowers at dusk" class="photo" style="object-position:65% 55%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter One — Color</p>
+        <h2 class="chapter-title">If Sofie were a color<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">Violet.</p>
+          <p class="line" data-line="1">Not just because it's your favorite color.</p>
+          <p class="line" data-line="2">Something calm enough to feel peaceful, but deep enough to make you stop and look.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 2 — SUPERPOWER -->
+    <article class="chapter" data-chapter="2" data-transition-in="scale-emerge">
+      <div class="photo-layer">
+        <img src="images/Unknown-2.jpeg" alt="A comforting hand resting on a head, warm sunset light" class="photo" style="object-position:35% 45%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-bottom-left">
+        <p class="eyebrow">Chapter Two — Superpower</p>
+        <h2 class="chapter-title">If Sofie were a superpower<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">Making people believe they can do better.</p>
+          <p class="line" data-line="1">Not super strength. Not invisibility.</p>
+          <p class="line" data-line="2">Somehow… just making people want to improve.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 3 — ART FORM -->
+    <article class="chapter" data-chapter="3" data-transition-in="curtain">
+      <div class="photo-layer">
+        <img src="images/Unknown-3.jpeg" alt="A woman reading by lamplight surrounded by books and notebooks" class="photo" style="object-position:70% 45%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter Three — Art Form</p>
+        <h2 class="chapter-title">If Sofie were an art form<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">Everything at once.</p>
+          <p class="line line-list" data-line="1">Drawing. Singing. Writing. Cooking. Speaking.</p>
+          <p class="line" data-line="2">Creative wasn't a hobby. It was basically an operating system.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 4 — BOOK -->
+    <article class="chapter" data-chapter="4" data-transition-in="fade-dark">
+      <div class="photo-layer">
+        <img src="images/Unknown-4.jpeg" alt="An open Bible on a wooden table beside white flowers and a wooden cross" class="photo" style="object-position:55% 60%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter Four — Book</p>
+        <h2 class="chapter-title">If Sofie were a book<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">The kind you keep returning to.</p>
+          <p class="line" data-line="1">Because every time you come back, you notice something you missed before.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 5 — VERSE -->
+    <article class="chapter chapter-verse" data-chapter="5" data-transition-in="light-reveal">
+      <div class="photo-layer">
+        <img src="images/Unknown-5.jpeg" alt="A misty hillside path overlooking a still lake at sunrise" class="photo" style="object-position:50% 40%;">
+      </div>
+      <div class="scrim scrim-soft"></div>
+      <div class="chapter-content pos-center-top">
+        <p class="eyebrow">Chapter Five — Verse</p>
+        <div class="reveal-lines">
+          <p class="line line-verse" data-line="0">"Let your light shine…"</p>
+          <p class="line line-ref" data-line="1">Matthew 5:16</p>
+          <p class="line" data-line="2">It reminded me of you.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 6 — PLACE -->
+    <article class="chapter" data-chapter="6" data-transition-in="vertical-reveal">
+      <div class="photo-layer">
+        <img src="images/Unknown-6.jpeg" alt="A wooden bench overlooking misty hills at sunrise" class="photo" style="object-position:40% 55%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter Six — Place</p>
+        <h2 class="chapter-title">If Sofie were a place<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">Somewhere peaceful.</p>
+          <p class="line" data-line="1">A place where you can slow down, breathe, and remember what actually matters.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 7 — PRAYER -->
+    <article class="chapter" data-chapter="7" data-transition-in="crossfade">
+      <div class="photo-layer">
+        <img src="images/Unknown-7.jpeg" alt="A woman looking out a window at dusk with a candle lit beside her" class="photo" style="object-position:75% 45%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-bottom-left">
+        <p class="eyebrow">Chapter Seven — Prayer</p>
+        <h2 class="chapter-title">If Sofie were a prayer<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line" data-line="0">A simple prayer that God keeps you happy, strong, peaceful, and surrounded by good people.</p>
+          <p class="line line-lg" data-line="1">Amen.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 8 — CHARACTER -->
+    <article class="chapter" data-chapter="8" data-transition-in="slide-fast">
+      <div class="photo-layer">
+        <img src="images/Unknown-8.jpeg" alt="An open Bible on a mountain rock with sunbeams breaking through clouds" class="photo" style="object-position:45% 60%;">
+      </div>
+      <div class="scrim scrim-left"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter Eight — Character</p>
+        <h2 class="chapter-title">If Sofie were a character<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">The quiet main character.</p>
+          <p class="line" data-line="1">Not the one trying to be noticed. Somehow, still the one people remember.</p>
+          <p class="line line-words" data-line="2">
+            <span class="word">Kind.</span><span class="word">Creative.</span><span class="word">Brave.</span><span class="word">Faithful.</span><span class="word">Unforgettable.</span>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 9 — SONG -->
+    <article class="chapter" data-chapter="9" data-transition-in="slide-fast">
+      <div class="photo-layer">
+        <img src="images/Unknown-9.jpeg" alt="A creative desk with books, sketches, paints, and a microphone" class="photo" style="object-position:35% 50%;">
+      </div>
+      <div class="scrim scrim-strong"></div>
+      <div class="chapter-content pos-top-left">
+        <p class="eyebrow">Chapter Nine — Song</p>
+        <h2 class="chapter-title">If Sofie were a song<span class="ellipsis">…</span></h2>
+        <div class="reveal-lines">
+          <p class="line line-lg" data-line="0">Something powerful.</p>
+          <p class="line line-lg" data-line="1">Something meaningful.</p>
+          <p class="line" data-line="2">Something that makes you want to become better.</p>
+          <p class="line line-song-ref" data-line="3">— the kind of feeling only "Kings of Kings" gives</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- CH 10 — PERSON (finale) -->
+    <article class="chapter chapter-finale" data-chapter="10" data-transition-in="fade-black">
+      <div class="photo-layer photo-layer-finale">
+        <img src="images/Unknown-10.jpeg" alt="A quiet dark horizon with a soft glow of light" class="photo photo-finale">
+      </div>
+      <div class="scrim scrim-finale"></div>
+      <div class="chapter-content pos-center-finale">
+        <div class="reveal-lines">
+          <p class="line line-finale-lead" data-line="0">If I had to describe what meeting you became<span class="ellipsis">…</span></p>
+          <p class="line line-finale-lead" data-line="1">I'd simply say<span class="ellipsis">…</span></p>
+          <p class="line line-finale-main" data-line="2">I'm glad I met you.</p>
+          <p class="line line-finale-sub" data-line="3">May God keep guiding you, protecting you, and giving you more reasons to smile.</p>
+        </div>
+        <p id="endLine" class="end-line">— end of the little story 🤍</p>
+        <button id="replayBtn" class="replay-btn">Replay</button>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- bottom continue control -->
+  <button id="continueBtn" class="continue-btn" aria-label="Continue to next chapter">
+    <span class="continue-circle">
+      <svg viewBox="0 0 24 24" class="continue-arrow"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span class="continue-label">Continue</span>
+  </button>
+
+</main>
+
+<!-- ============ CHAPTER NAVIGATOR ============ -->
+<div id="navigator" class="navigator" aria-hidden="true">
+  <button id="closeNav" class="close-nav" aria-label="Close chapter list">
+    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>
+  </button>
+  <div class="navigator-inner">
+    <p class="navigator-title">Chapters</p>
+    <div class="navigator-grid" id="navigatorGrid"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
